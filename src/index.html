@@ -1,13 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../dist/output.css" rel="stylesheet">
-</head>
-<body >
-  <h1 class="text-6xl bg-red-600 text-gray-500 font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="bg-gray-400 relative">
+      <img
+        class="absolute top-0 w-full z-10"
+        src="../public/img/Rectangle 349.png"
+        alt=""
+      />
+      <nav
+        class="mx-auto z-20 flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        aria-label="Global"
+      >
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="../public/img/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="flex lg:gap-x-12">
+          <div class="relative">
+            <img class="h-8 w-auto" src="../public/img/logo.png" alt="" />
+            9999
+            <button>Deposit</button>
+          </div>
+        </div>
+        <div class="lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+            >Log in <span aria-hidden="true">&rarr;</span></a
+          >
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
